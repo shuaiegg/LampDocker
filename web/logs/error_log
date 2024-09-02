@@ -1,0 +1,8 @@
+[Mon Sep 02 09:49:59.364458 2024] [core:crit] [pid 1:tid 1] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed
+[Mon Sep 02 09:51:38.110956 2024] [core:crit] [pid 1:tid 1] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed
+[Mon Sep 02 09:56:28.618290 2024] [core:crit] [pid 1:tid 1] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed
+[Mon Sep 02 10:08:23.264622 2024] [core:crit] [pid 1:tid 1] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed

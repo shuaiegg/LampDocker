@@ -1,0 +1,9 @@
+# 基于官方的 Apache 镜像
+FROM httpd:2.4
+
+# 复制自定义的配置文件到容器中
+COPY ./config/httpd.conf /usr/local/apache2/conf/httpd.conf
+
+# 确保加载必要的模块
+RUN echo "LoadModule mpm_event_module modules/mod_mpm_event.so" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "LoadModule rewrite_module modules/mod_rewrite.so" >> /usr/local/apache2/conf/httpd.conf
